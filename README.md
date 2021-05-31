@@ -12,13 +12,13 @@ This repository provides data collected by sensors about fuel consumption and co
         brake_usage (%): percentage of the travel time with the brake and with the engine on 
         accel (m/s**2): percentage of the travel time with thge accelerator pedal pressed
         
-- Folder TS_VEIC_MONTH_COLLECTION
+- Zip file TS_VEIC_MONTH_COLLECTION
 
     Contains multivariate time-series collection constructed from DATASET.csv
     Each time-series is named as: "V"<vehicle-index>-"M"<month-index>
     (e.g. "V1M1" is the multivariate time-series of VehicleID 1 in the Month of January)
     
-- Folder SYNTHETIC DATASET COLLECTION (generated from a given ground truth of causal dependencies among variables (X0-X4) assumed by a given DAG)
+- Zip file SYNTHETIC DATASET COLLECTION (generated from a given ground truth of causal dependencies among variables (X0-X4) assumed by a given DAG)
 
     Contains a collection of synthetic dataset:
     LLC: Lag-Linear-Combination dataset
