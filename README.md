@@ -5,12 +5,12 @@ This repository provides data collected by sensors about fuel consumption and co
     Dataset with features:
         Index: Date-time
         VehicleID: Vehicle Identifier
-        avg_slope (%) of the path   
-        mass (ton) of the vehiclke including passengers     
-        aircond_ptime (%) percentage of travel time with air conditioning on
-        stop_ptime (%) percentage of the travel time with the vehicle stopped and with the engine on
-        brake_usage (%) percentage of the travel time with the brake and with the engine on 
-        accel (m/s**2) percentage of the travel time with thge accelerator pedal pressed
+        avg_slope (%): average slope of the path   
+        mass (ton): of the vehicle including passengers     
+        aircond_ptime (%): percentage of travel time with air conditioning on
+        stop_ptime (%): percentage of the travel time with the vehicle stopped and with the engine on
+        brake_usage (%): percentage of the travel time with the brake and with the engine on 
+        accel (m/s**2): percentage of the travel time with thge accelerator pedal pressed
         
 - Folder TS_VEIC_MONTH_COLLECTION
 
@@ -18,7 +18,7 @@ This repository provides data collected by sensors about fuel consumption and co
     Each time-series is named as: "V"<vehicle-index>-"M"<month-index>
     (e.g. "V1M1" is the multivariate time-series of VehicleID 1 in the Month of January)
     
-- Folder SYNTHETIC DATASET COLLECTION (generated from a given ground truth of causal dependencies among variables assumed by a given DAG)
+- Folder SYNTHETIC DATASET COLLECTION (generated from a given ground truth of causal dependencies among variables (X0-X4) assumed by a given DAG)
 
     Contains a collection of synthetic dataset:
     LLC: Lag-Linear-Combination dataset
